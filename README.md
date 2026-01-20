@@ -1,5 +1,5 @@
-Twitter Analytics Dashboard – Power BI
-Project Overview
+****Twitter Analytics Dashboard – Power BI
+Project Overview****
 
 This project focuses on designing and developing an interactive Twitter Analytics Dashboard using Microsoft Power BI, based on a set of real-world analytical requirements provided during an internship assignment.
 
@@ -30,11 +30,11 @@ DAX (Data Analysis Expressions) for calculations
 Excel / CSV as the data source
 
 Data Pipeline (ETL Process)
-1. Extract
+*1. Extract*
 
 Twitter analytics data was imported from an Excel (.xlsx) or CSV file.
 
-2. Transform (Power Query)
+*2. Transform (Power Query)*
 
 The following transformations were performed to prepare the dataset for analysis:
 
@@ -56,7 +56,7 @@ Cleaned and standardized text fields
 
 These transformations ensure that complex filtering logic is handled efficiently at the data level, minimizing the need for heavy visual-level filters.
 
-3. Load
+*3. Load*
 
 The transformed dataset was loaded into the Power BI data model for analysis and visualization.
 
@@ -64,7 +64,7 @@ Dashboard Objectives and Business Rules
 
 The dashboard consolidates five analytical tasks into a single unified view, each governed by specific business constraints such as time windows, engagement thresholds, and tweet characteristics.
 
-Task 1: Top Engagement Tweets
+*Task 1: Top Engagement Tweets*
 
 Displays tweets in the top 10 percent by engagement rate
 
@@ -78,7 +78,7 @@ Tweet word count below 30
 
 Active only between 1 PM and 4 PM
 
-Task 2: Media Engagement vs Media Views
+*Task 2: Media Engagement vs Media Views*
 
 Scatter chart analyzing the relationship between:
 
@@ -98,7 +98,7 @@ Tweet word count below 50
 
 Active only between 12 PM and 6 PM
 
-Task 3: Interaction Breakdown by Tweet Category
+*Task 3: Interaction Breakdown by Tweet Category*
 
 Clustered bar chart displaying:
 
@@ -120,7 +120,7 @@ Tweet word count below 40
 
 Active only between 3 PM and 6 PM
 
-Task 4: Weekly Media Performance (Dual Axis)
+*Task 4: Weekly Media Performance (Dual Axis)*
 
 Dual-axis chart showing:
 
@@ -144,7 +144,7 @@ Active only between 3 PM and 6 PM
 
 Days with significant spikes in media interactions are visually highlighted
 
-Task 5: Monthly Engagement Trend
+*Task 5: Monthly Engagement Trend*
 
 Line chart displaying average engagement rate by month
 
@@ -176,7 +176,7 @@ Focus on clarity, usability, and insight generation
 
 All visuals are fully interactive and respond dynamically to applied filters and slicers.
 
-Key Outcomes
+**Key Outcomes**
 
 Successfully combined multiple complex analytical requirements into a single dashboard
 
@@ -186,7 +186,7 @@ Designed a dashboard suitable for stakeholder and managerial review
 
 Ensured performance optimization and visual consistency
 
-How to Use
+**How to Use**
 
 Open the .pbix file in Microsoft Power BI Desktop
 
@@ -196,7 +196,7 @@ Interact with visuals using slicers and filters
 
 Explore engagement trends and performance insights
 
-Learning Highlights
+**Learning Highlights**
 
 End-to-end Power BI dashboard development
 
